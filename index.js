@@ -13,7 +13,7 @@ app.get('/about',(req,res)=>{
 app.get('/contact',(req,res)=>{
     res.render('contact.ejs')
 })
-
+  
 app.set('view engine', 'ejs');
 
 
